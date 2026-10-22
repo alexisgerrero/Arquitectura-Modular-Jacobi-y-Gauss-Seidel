@@ -12,19 +12,6 @@ Este proyecto resuelve sistemas de ecuaciones lineales con dos métodos iterativ
 
 El vector inicial es X(0) = [0, 0, 0] y la tolerancia es 0.0001. La solución exacta es x = y = z = 1. El sistema es estrictamente diagonal dominante (5 > 2, 4 > 2, 5 > 3), condición que asegura que ambos métodos convergen.
 
-## Estructura del proyecto
-
-    MetodosIterativos/
-    └── src/
-        └── Ecuaciones_lineales/
-            ├── Main.java
-            ├── Sistema/
-            │   └── SistemaEcuaciones.java
-            ├── JACOBI/
-            │   └── MetodoJacobi.java
-            └── Gauss_Seidel/
-                └── GaussSeidelMetodo.java
-
 ## Cómo funciona cada módulo
 
 ### 1. Sistema/SistemaEcuaciones.java (definición del sistema)
