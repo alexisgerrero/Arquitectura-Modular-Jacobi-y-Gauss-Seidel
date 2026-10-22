@@ -42,15 +42,6 @@ Es la única clase con `main`. Lee los datos desde `SistemaEcuaciones`, ejecuta 
 
 `Main` no conoce los detalles internos de los métodos y los métodos no conocen el sistema concreto. Eso es lo que hace modular la arquitectura.
 
-## Compilar y ejecutar
-
-Desde la carpeta `MetodosIterativos`:
-
-    javac -d out src/Ecuaciones_lineales/Main.java src/Ecuaciones_lineales/*/*.java
-    java -cp out Ecuaciones_lineales.Main
-
-También puedes importar la carpeta `src` en IntelliJ IDEA o Eclipse y ejecutar `Main`.
-
 ## Criterio de paro
 
 El método termina cuando
